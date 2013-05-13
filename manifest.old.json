@@ -1,0 +1,20 @@
+{
+   "browser_action": {
+      "default_icon": "quicklinks.ico",
+      "popup": "quicklinks.htm"
+   },
+   "description": "Links-links-links",
+   "icons": {
+      "128": "icon-128.png",
+      "16": "icon-16.png",
+      "48": "icon-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC4juybjP9KYZ/5vTpVgkLi5fW5wWV4B0nWnx6i3pmDcsm7JPwyZRuWW3/Y7OWvUxJBst5ktRU/skbblMAzXz2zzXNd318lq9sXe2OsxjgwSzUY6WwCccuZS+cSELQGl6hn27l1nvNuti/vyNO/CFbDhYTayxILWesvyDvuhoT4iwIDAQAB",
+   "manifest_version": 2,
+   "name": "Quicklinks",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.2",
+   "permissions": [
+     "http://*.nianet.dk/"
+   ]
+}

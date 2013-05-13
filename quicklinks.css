@@ -1,0 +1,107 @@
+body
+{
+	overflow-x: hidden;
+	width: 320px;
+	font-size: 16px;
+	/* background-image:url('http://ql.spacepope.dk/media/knitted-netting.png'); */
+  background: white;
+}
+
+img, form
+{
+	border-style: none;
+	margin:0 0 0 0;
+}
+
+.flip {
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+
+input
+{
+	font-size:1em;
+	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-family: 'Ubuntu', sans-serif;
+}
+
+select
+{
+	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-family: 'Ubuntu', sans-serif;
+	font-size : 1em;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.divleft
+{
+	border: 0;
+	border-style: solid;
+	border-color: green;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	text-decoration: none;
+	width: 9px;
+	height: 29px;
+	background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAdCAYAAAB41kadAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALlJREFUeNpiZEAHM/+DyAYgjoCK7GNhwATvgFgQWYAFzZQsJAX2DOmMh0AMJjRT8qD0e5gCbIpg4BUyB5cihmGpSB1Kn8euaOb/5UjijajRMvO/EJC+gxQdocDQvoFukhiSghVABWuwuekBWBICIoAmv0NXxIiWAqYiWbkG0+HpjNOwpAasQXATSouN3FQAywAK2EMcEup2QPIglDcdiCeBNDJiyebLkbI4OIAZsTpi5n8NJIVXAAIMAGleK+zElT8nAAAAAElFTkSuQmCC');
+	background-repeat:no-repeat;
+}
+
+.divider
+{
+	height: 24px;
+	width: 7px;
+}
+
+.noHScroll
+{
+	overflow-x:hidden;
+}
+
+
+.largeicon
+{
+	height: 2em;
+}
+
+.mediumicon
+{
+	height: 24px;
+}
+
+.middlingicon
+{
+	height: 20px;
+}
+
+.smallicon
+{
+	height: 16px;
+}
+
+.BackOfficeCustomViewTable
+{
+	/*border: 0 0 0 0;*/
+	width: 8;
+	display: inline-block;
+	/*padding: 0 0 0 0;*/
+	border-spacing: 0;
+	/*border="0" width="8" style="display:inline-block;" cellpadding="0" cellspacing="0"*/
+}
+.botr
+{
+	display: inline;
+	border-collapse: collapse;
+	font-size: 0;
+}
